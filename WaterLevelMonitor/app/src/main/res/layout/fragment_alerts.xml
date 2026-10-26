@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:scrollbars="none">
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cảnh báo" android:textColor="@color/text_primary" android:textSize="22sp" android:textStyle="bold"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="Theo dõi khoảng cách từ cảm biến đến mặt nước" android:textColor="@color/text_secondary" android:textSize="13sp"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:background="@drawable/bg_card" android:orientation="vertical" android:padding="12dp">
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Các mức cảnh báo" android:textColor="@color/text_primary" android:textSize="22sp" android:textStyle="bold"/>
+      <LinearLayout android:id="@+id/alertLevels" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:orientation="vertical"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:background="@drawable/bg_card" android:orientation="vertical" android:padding="16dp">
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Lịch sử đổi mức" android:textColor="@color/text_primary" android:textSize="16sp" android:textStyle="bold"/>
+      <LinearLayout android:id="@+id/alertHistory" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:orientation="vertical"/>
+    </LinearLayout>
+  </LinearLayout>
+</ScrollView>

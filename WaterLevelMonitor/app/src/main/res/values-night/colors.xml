@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#0B1624</color>
+    <color name="white">#12243A</color>
+    <color name="text_primary">#E8F1FB</color>
+    <color name="text_secondary">#9DB3CC</color>
+    <color name="card_border">#1F3752</color>
+    <color name="primary">#6AA8F5</color>
+    <color name="nav_indicator">#173556</color>
+    <color name="hero_surface">#102A44</color>
+    <color name="hero_border">#1F5B91</color>
+    <color name="green">#6FD39A</color>
+    <color name="green_bg">#14382A</color>
+    <color name="red">#FF9A90</color>
+    <color name="red_bg">#4A1C1A</color>
+    <color name="orange">#FFB77A</color>
+    <color name="orange_bg">#4A2A12</color>
+    <color name="gray_bg">#1F3752</color>
+</resources>

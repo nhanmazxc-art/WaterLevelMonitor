@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WaterLevelMonitor</string>
+    <string name="nav_overview">Tổng quan</string>
+    <string name="nav_tank">Bể chứa</string>
+    <string name="nav_stats">Thống kê</string>
+    <string name="nav_alerts">Cảnh báo</string>
+    <string name="nav_settings">Cài đặt</string>
+</resources>

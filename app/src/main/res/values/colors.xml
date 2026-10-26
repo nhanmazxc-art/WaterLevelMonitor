@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red_100">#FFCDD2</color>
+    <color name="water_normal">#5BCBE0</color>
+    <color name="water_mid">#8EC5F5</color>
+    <color name="water_high">#FFB77A</color>
+    <color name="water_danger">#F4938C</color>
+    <color name="water_none">#C3D0DE</color>
+    <color name="purple">#5B3FA8</color>
+    <color name="purple_bg">#EDE7FA</color>
+    <color name="orange">#C2410C</color>
+    <color name="orange_bg">#FFEDD5</color>
+    <color name="yellow">#A15C00</color>
+    <color name="yellow_bg">#FFF4CC</color>
+    <color name="red">#B42318</color>
+    <color name="red_bg">#FEE4E2</color>
+    <color name="gray_bg">#E8EDF3</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg">#F3F8FD</color>
+    <color name="primary">#1565C0</color>
+    <color name="login_blue">#087ABD</color>
+    <color name="login_field">#E7EFFC</color>
+    <color name="facebook_blue">#4267A9</color>
+    <color name="google_red">#EF3939</color>
+    <color name="cyan">#7DE3F0</color>
+    <color name="text_primary">#0B2540</color>
+    <color name="text_secondary">#5B7189</color>
+    <color name="card_border">#E1ECF7</color>
+    <color name="green">#1B7F4B</color>
+    <color name="green_bg">#E3F5EA</color>
+    <color name="nav_indicator">#DCEBFA</color>
+    <color name="hero_track">#40FFFFFF</color>
+    <color name="hero_surface">#EAF4FF</color>
+    <color name="hero_border">#B8D8F5</color>
+</resources>

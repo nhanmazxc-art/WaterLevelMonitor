@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b766e" />
+    <title>Giám sát mực nước</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="dashboard">
+      <header class="page-header">
+        <div>
+          <p class="eyebrow">HỆ THỐNG GIÁM SÁT</p>
+          <h1>Cảnh báo lũ</h1>
+          <p>Khoảng cách cảm biến – mặt nước</p>
+        </div>
+        <span id="connection" class="connection offline">● Đang kết nối</span>
+      </header>
+
+      <p id="banner" class="banner" hidden></p>
+
+      <section class="card hero-card">
+        <div class="section-heading">
+          <h2>Biểu đồ khoảng cách</h2>
+          <span id="level-chip" class="level-chip">Chưa xác định</span>
+        </div>
+        <div class="metrics">
+          <div><span>Khoảng cách hiện tại</span><strong id="distance">--</strong></div>
+          <div><span>Mực nước</span><strong id="water-level">--</strong></div>
+        </div>
+        <canvas id="distance-chart" width="760" height="220" aria-label="Biểu đồ khoảng cách cảm biến"></canvas>
+        <p class="hint">Khoảng cách càng nhỏ, cảnh báo càng mạnh.</p>
+      </section>
+
+      <section class="card control-card">
+        <h2>⚙ Điều khiển thiết bị</h2>
+        <div id="devices" class="device-list"></div>
+        <div class="mode" role="group" aria-label="Chế độ điều khiển">
+          <button id="mode-auto" type="button">TỰ ĐỘNG</button>
+          <button id="mode-manual" type="button">THỦ CÔNG</button>
+        </div>
+        <p id="updated" class="updated">● Đang chờ dữ liệu...</p>
+      </section>
+    </main>
+    <template id="device-template">
+      <article class="device-row">
+        <span class="device-icon"></span>
+        <div><h3></h3><p></p></div>
+        <label class="switch"><input type="checkbox" /><span></span></label>
+      </article>
+    </template>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
